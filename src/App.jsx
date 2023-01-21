@@ -1,10 +1,10 @@
-import React from 'react'
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './tailwind.css'
-
+import './App.css'
 import Landing from './pages/Landing'
 
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
       <Routes>

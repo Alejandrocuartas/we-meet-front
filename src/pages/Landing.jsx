@@ -1,11 +1,7 @@
 import React from 'react'
 
 const Landing = () => {
-  return (
-    <div className=''>
-      <h1 className='text-center'>Hi!</h1>
-    </div>
-  )
+  return <h1>Hi!</h1>
 }
 
 export default Landing
