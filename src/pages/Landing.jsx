@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react'
 
 const Landing = () => {
-    return <h1>Hi!</h1>;
-};
+  return (
+    <div className=''>
+      <h1 className='text-center'>Hi!</h1>
+    </div>
+  )
+}
 
-export default Landing;
+export default Landing
