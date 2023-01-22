@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-const Landing = () => {
-    return <h1>Hi!</h1>;
-};
+function Landing() {
+  return <h1>Hi!</h1>;
+}
 
 export default Landing;
